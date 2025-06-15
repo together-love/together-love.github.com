@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+:root{
+	--white: #fff;
+	--black: #000;
+
+	--main-color: var(--black);
+	--text-color: #fff;
+	--main-bg-color: #000;
+	/* --main-bg-color: #f5f5f7; */
+
+	--font: Arial, Helvetica, sans-serif;
+	--font-large: "Raleway", sans-serif;
+	--font-small: "Montserrat", sans-serif;
+	--font-universal: "Inter", sans-serif;
+
+	--font-family:Arial, Helvetica, sans-serif;
+	--border-radius: 10px;
+}
+
+body{
+	color: var(--text-color);
+	font-family: var(--font);
+	background-color: var(--main-bg-color);
+}
+
+
+#profile-main-img{
+	top: 0;
+	z-index: -1;
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+}
+.gradient{
+	top: 0;
+	z-index: 0;
+	height: 500px;
+	width: 100%;
+	background: linear-gradient(0deg,rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 30%);
+}
+
+.text-header{
+	font-size: 28px;
+	letter-spacing: 1px;
+	font-family: var(--font-universal);
+	
+}
+.text-header .name{
+	font-weight: bold;
+}
+.description{
+	font-size: 14px;
+}
+
+#content{
+	z-index: 1;
+	width: 85%;
+	margin:415px auto 0px auto;
+}
